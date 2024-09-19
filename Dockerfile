@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 
 # Clone, build, and install the pgvector extension
 RUN cd /tmp \
-    && git clone --branch v0.5.0 https://github.com/pgvector/pgvector.git \
+    && git clone --branch v0.7.4 https://github.com/pgvector/pgvector.git \
     && cd pgvector \
     && make \
     && make install
