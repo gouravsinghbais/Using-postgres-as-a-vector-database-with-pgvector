@@ -5,7 +5,7 @@ import torch
 import torch.nn.functional as F
 from torch import Tensor
 
-# We won't have competing threads in this example app
+# You won't have competing threads in this example app
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 
